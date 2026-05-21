@@ -1,0 +1,52 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.history
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+*.egg-info/
+
+# ROS 2 / colcon build artifacts
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# g1_real_ws build artifacts
+g1_real_ws/build/
+g1_real_ws/install/
+g1_real_ws/log/
+
+# MuJoCo cache / misc
+.mujoco/
+*.mjb
+*.log
+
+# Large recordings
+*.svo
+*.mp4
+output.mp4
+
+# CMake artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# cbf extra
+g1_real_ws/src/g1_cbf_ros2/g1_bridge/
+
+# calibration files
+g1_real_ws/calibration/
+
+# exp results
+g1_real_ws/bdcc_exp/sweeps

@@ -1,0 +1,9 @@
+[submodule "third_party/mujoco_menagerie"]
+	path = third_party/mujoco_menagerie
+	url = git@github.com:google-deepmind/mujoco_menagerie.git
+[submodule "g1_repos/unitree_ros2"]
+	path = g1_repos/unitree_ros2
+	url = https://github.com/unitreerobotics/unitree_ros2.git
+[submodule "g1_repos/unitree_sdk2"]
+	path = g1_repos/unitree_sdk2
+	url = https://github.com/unitreerobotics/unitree_sdk2.git
